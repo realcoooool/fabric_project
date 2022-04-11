@@ -29,7 +29,7 @@ if !filereadable(vim_plug_path)
     if using_neovim
         silent !mkdir -p ~/.config/nvim/autoload
         silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://github.do/https://raw.githubusercontent.com/realcoooool/fabric_project/main/plug.vim
-    else/
+    else
         silent !mkdir -p ~/.vim/autoload
         silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://github.do/https://raw.githubusercontent.com/realcoooool/fabric_project/main/plug.vim
     endif
