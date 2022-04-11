@@ -28,10 +28,10 @@ if !filereadable(vim_plug_path)
     echo ""
     if using_neovim
         silent !mkdir -p ~/.config/nvim/autoload
-        silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/realcoooool/fabric_project/main/plug.vim
-    else
+        silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://github.do/https://raw.githubusercontent.com/realcoooool/fabric_project/main/plug.vim
+    else/
         silent !mkdir -p ~/.vim/autoload
-        silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/realcoooool/fabric_project/main/plug.vim
+        silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://github.do/https://raw.githubusercontent.com/realcoooool/fabric_project/main/plug.vim
     endif
     let vim_plug_just_installed = 1
 endif
